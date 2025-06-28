@@ -1,8 +1,6 @@
 module github.com/cucumber/godog/_examples
 
-go 1.24
-
-toolchain go1.24.2
+go 1.22
 
 replace github.com/cucumber/godog => ../
 
@@ -25,5 +23,6 @@ require (
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
