@@ -28,9 +28,7 @@ test: check-go-version
 	go vet ./...
 	go test -race ./...
 	go run ./cmd/godog -f progress -c 4
-	@cd ./_examples
-	go vet ./...
-	@cd ..
+	cd ./_examples && go vet ./... && cd ..
 
 
 gherkin:
